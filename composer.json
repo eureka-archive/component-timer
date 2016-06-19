@@ -15,7 +15,7 @@
 
   "autoload": {
     "psr-4": {
-      "Eureka\\Component\\Timer": "./"
+      "Eureka\\Component\\Timer\\": "./"
     }
   },
 
