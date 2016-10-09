@@ -13,7 +13,6 @@ namespace Eureka\Component\Timer;
  * Timer class
  *
  * @author Romain Cottard
- * @version 2.0.0
  */
 class Timer
 {
@@ -63,8 +62,9 @@ class Timer
 
     /**
      * Display timer value
-     * @param string $name
-     * @param int  $round
+     *
+     * @param  string $name
+     * @param  int    $round
      * @return void
      */
     public static function display($name = null, $round = 3)
